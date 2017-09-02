@@ -22,6 +22,7 @@ object ExprEvaluator{
 
 object Solution3 extends App {
 
+  //type class instance
  implicit val jsonConverter = new JsonConverter[Expr]{
     override def convert(value: Expr) =
       value match {
