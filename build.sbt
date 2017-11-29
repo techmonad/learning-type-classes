@@ -1,4 +1,4 @@
-name := "type-classes-by-example"
+name := "learning-type-classes"
 
 version := "1.0"
 
